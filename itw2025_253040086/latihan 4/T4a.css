@@ -1,0 +1,93 @@
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+
+body{
+  font: 16px/28px, arial, sans-serif;
+  background-color:#eaeaea;
+  color: #333
+}
+.container {
+  width: 800px;
+  background-color: #fff;
+  margin: auto;
+}
+.header {
+  padding: 20px;
+  padding-bottom: 10px;
+}
+.header ul li{
+  display: inline-block;
+  margin-right: 8px;
+  margin-top: 5px;
+}
+.header .Judul{
+  font-size: 40px;
+  font-weight: bold;
+}
+.header a{
+    text-decoration:none;
+    color:salmon;  
+}
+.header a:hover {
+  background-color: lightskyblue;
+  color: white;
+}
+.hero {
+  height: 200px;
+  background-image: url("img/hero.jpg");
+  background-size: cover;
+  background-position: center;
+  border-bottom: 5px solid darkgray;
+  border-top: 5px solid salmon;
+  background-repeat: no-repeat;
+}
+.content {
+  padding: 20px;
+}
+.content h2 {
+  font-size: 28px;
+  font-weight: bold;
+}
+.content .penulis {
+  font-size: 10px;
+  margin-top: -5px;
+}
+.content .penulis a {
+  color: salmon;
+  text-decoration: none;
+}
+.content p {
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+.footer {
+  background-color: #333;
+  padding: 10px;
+}
+.footer .copy {
+  color: #eaeaea;
+  text-align: center;
+  font-size: 12px;
+}
