@@ -1,0 +1,67 @@
+.seluruh{
+    background-color: #eaeaea;
+    height: 220vh;
+    
+}
+.header .judul{
+    text-align: center; 
+    font-size: 40px;  
+    font-weight: bold;
+}
+.judul2{
+    text-align: center;
+}
+.gambar{
+    background-image: url("img/gameretro.jpg");
+    background-size: auto;
+    background-position: center;
+    height: 500px;
+    border-bottom: 5px solid brown;
+    border-top:5px solid green;
+    border-right: 5px solid greenyellow;
+    border-left: 5px solid lightskyblue;
+    border-radius: 50px;
+    box-shadow: 0px 2px 20px;
+    /* transisi */
+    transition-property: height;
+    transition-duration: 2s;
+    transition-timing-function: ease;
+    transition-delay: 1ms;
+}
+.gambar:hover{
+    height: 400px;
+    transition: all 3px ease-in-out;
+    -webkit-transition: all 3px ease-in-out;
+    -moz-transition: all 3px ease-in-out;
+    -ms-transition: all 3px ease-in-out;
+    -o-transition: all 3px ease-in-out;
+} 
+/* bagian katalog */
+.foto{
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: auto;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    height: 300px;
+}
+.konten{
+    text-align: center;
+    padding: 0 20px;
+}
+.konten p{
+    text-decoration: wavy;
+}
+.penanda{
+    background-color: lightskyblue;
+    text-align: center;
+    box-shadow: 0 2px 2px;
+}
+.penanda .copy{
+    margin-top: 50px;
+}
+.penulis2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 11px;
+}

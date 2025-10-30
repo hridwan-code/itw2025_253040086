@@ -56,7 +56,7 @@ body{
 }
 .hero {
   height: 200px;
-  background-image: url("img/hero.jpg");
+  background-image: url('img/hero.jpg');
   background-size: cover;
   background-position: center;
   border-bottom: 5px solid darkgray;
