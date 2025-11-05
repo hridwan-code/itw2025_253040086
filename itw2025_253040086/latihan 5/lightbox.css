@@ -142,7 +142,7 @@ body::before{
   color: white;
   position: absolute;
   top: 300px;
-  left: 20px;
+  left: 401px;
 }
 .namabawah{
   text-align: center;
@@ -152,12 +152,117 @@ body::before{
   color: white;
   position: absolute;
   top: 310px;
-  left: 18px;
+  left: 398px;
 }
-.keterangan1 {
+.namaatas1 {
   text-align: center;
   font-family: "Kanit", sans-serif;
   font-size: 12px;
   margin: auto;
   color: white;
+  position: absolute;
+  top: 300px;
+  left: 577px;
+}
+.namabawah1 {
+  text-align: center;
+  font-family: "Kanit", sans-serif;
+  font-size: 12px;
+  margin: auto;
+  color: white;
+  position: absolute;
+  top: 310px;
+  left: 559px;
+}
+.namaatas2 {
+  text-align: center;
+  font-family: "Kanit", sans-serif;
+  font-size: 12px;
+  margin: auto;
+  color: white;
+  position: absolute;
+  top: 300px;
+  left: 750px;
+}
+.namabawah2 {
+  text-align: center;
+  font-family: "Kanit", sans-serif;
+  font-size: 12px;
+  margin: auto;
+  color: white;
+  position: absolute;
+  top: 310px;
+  left: 755px;
+}
+.namaatas3 {
+  text-align: center;
+  font-family: "Kanit", sans-serif;
+  font-size: 12px;
+  margin: auto;
+  color: white;
+  position: absolute;
+  top: 300px;
+  left: 917px;
+}
+.namabawah3 {
+  text-align: center;
+  font-family: "Kanit", sans-serif;
+  font-size: 12px;
+  margin: auto;
+  color: white;
+  position: absolute;
+  top: 310px;
+  left: 912px;
+}
+/* lightbox */
+.overlay{
+  width: 0;
+  height: 0;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.7);
+  z-index: 99;
+  transition: .8s;
+  text-align: center;
+  padding: 100px;
+}
+.overlay:target{
+  width: auto;
+  height: auto;
+  bottom: 0;
+  right: 0;
+  background: rgba(0,0,0,5);
+  
+}
+overlay img{
+  max-height: 100%;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 5);
+}
+.overlay:target img {
+  animation: zoomDanfade 1s;
+  -webkit-animation: zoomDanfade 1s;
+}
+.overlay .close {
+  position: absolute;
+  inset: 0;
+  cursor: pointer;
+  z-index: 1;
+  display: block;
+  background: transparent;
+  text-decoration: none;
+}
+/* animasi */
+@keyframes zoomDanfade{
+  0%{
+      transform: scale(0);
+      opacity: 0;
+  }
+  100%{
+      transform: scale(1);
+      opacity: 1;
+    }
 }
