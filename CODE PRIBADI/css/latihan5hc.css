@@ -1,0 +1,39 @@
+.body{
+    background-color: rgb(14, 14, 39);
+    height: 200vh;
+    margin: 0 auto;
+}
+.judul{
+    color:whitesmoke;
+    text-align: center;
+    padding: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+}
+.gambar{
+    background-color:aqua;
+    justify-content: center;
+    align-items: center;
+}
+.g1{
+    height: 200px;
+    display:
+    background-image: url('../gambar/space.jpg');
+    background-repeat: no-repeat;
+    background-size: 100px;
+    align-items: center;
+}
+.g2{
+    height: 200px;
+    background-image: url('../gambar/megaman.jpg');
+    background-repeat: no-repeat;
+    background-size: 100px;
+    justify-content: center;
+}
+.g3{
+    height: 200px;
+    background-image: url('../gambar/Castlevania.png');
+    background-repeat: no-repeat;
+    background-size: 100px;
+    justify-content: center;
+}

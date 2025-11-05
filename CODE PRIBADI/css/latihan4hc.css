@@ -1,8 +1,13 @@
-.video{
-    position: relative;
+.gambar{
+    height: 400px;
+    background-image: url(../gambar/sampul.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: flex;
     width: 100%;
     height: 100vh;
     overflow: hidden;
+    
 }
 
 .overlay {
