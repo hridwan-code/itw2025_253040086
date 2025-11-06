@@ -215,6 +215,7 @@ body::before{
   left: 912px;
 }
 /* lightbox */
+/* overlay lukisan 1 */
 .overlay{
   width: 0;
   height: 0;
@@ -224,9 +225,7 @@ body::before{
   position: fixed;
   top: 0;
   left: 0;
-  background: rgba(0, 0, 0, 0.7);
-  z-index: 99;
-  transition: .8s;
+  z-index: 0;
   text-align: center;
   padding: 100px;
 }
@@ -235,18 +234,108 @@ body::before{
   height: auto;
   bottom: 0;
   right: 0;
-  background: rgba(0,0,0,5);
-  
+  background: rgb(0, 0, 0,0.6);
 }
-overlay img{
+.overlay img{
   max-height: 100%;
-  box-shadow: 0px 0px 20px rgba(0, 0, 0, 5);
+  box-shadow: 0px 0px 10px rgb(99, 60, 10);
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
 }
 .overlay:target img {
   animation: zoomDanfade 1s;
   -webkit-animation: zoomDanfade 1s;
 }
 .overlay .close {
+  position: absolute;
+  inset: 0;
+  cursor: pointer;
+  z-index: 1;
+  display: block;
+  background: transparent;
+  text-decoration: none;
+}
+/* overlay lukisan 2 */
+.overlay2{
+  width: 0;
+  height: 0;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 0;
+  text-align: center;
+  padding: 100px;
+}
+.overlay2:target{
+  width: auto;
+  height: auto;
+  bottom: 0;
+  right: 0;
+  background: rgb(0, 0, 0,0.6);
+}
+.overlay2 img{
+  max-height: 100%;
+  box-shadow: 0px 0px 10px rgb(99, 60, 10);
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+.overlay2:target img {
+  animation: zoomDanfade 1s;
+  -webkit-animation: zoomDanfade 1s;
+}
+.overlay2 .closedua {
+  position: absolute;
+  inset: 0;
+  cursor: pointer;
+  z-index: 1;
+  display: block;
+  background: transparent;
+  text-decoration: none;
+}
+/* overlay lukisan 3 */
+.overlay3{
+  width: 0;
+  height: 0;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 0;
+  text-align: center;
+  padding: 100px;
+}
+.overlay3:target{
+  width: auto;
+  height: auto;
+  bottom: 0;
+  right: 0;
+  background: rgb(0, 0, 0,0.6);
+}
+.overlay3 img{
+  max-height: 100%;
+  box-shadow: 0px 0px 10px rgb(99, 60, 10);
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+.overlay3:target img {
+  animation: zoomDanfade 1s;
+  -webkit-animation: zoomDanfade 1s;
+}
+.overlay3 .closetiga {
   position: absolute;
   inset: 0;
   cursor: pointer;
