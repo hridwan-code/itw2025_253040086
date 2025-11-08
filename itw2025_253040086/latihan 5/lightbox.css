@@ -1,12 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=BBH+Sans+Bartle&family=Bitcount+Grid+Single:wght@100..900&family=DM+Serif+Display:ital@0;1&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 body {
-  background-image: url('img/lukisanbackground2.jpg');
+  background-image: url("img/lukisanbackground2.jpg");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
   margin: 0;
 }
-body::before{
+body::before {
   content: "";
   position: fixed;
   top: 0;
@@ -139,7 +139,7 @@ body::before{
 }
 /* lightbox */
 /* overlay lukisan 1 */
-.overlay{
+.overlay {
   width: 0;
   height: 0;
   display: flex;
@@ -152,14 +152,14 @@ body::before{
   text-align: center;
   padding: 100px;
 }
-.overlay:target{
+.overlay:target {
   width: auto;
   height: auto;
   bottom: 0;
   right: 0;
-  background: rgb(0, 0, 0,0.6);
+  background: rgb(0, 0, 0, 0.6);
 }
-.overlay img{
+.overlay img {
   max-height: 100%;
   box-shadow: 0px 0px 10px rgb(99, 60, 10);
   border-radius: 20px;
@@ -182,7 +182,7 @@ body::before{
   text-decoration: none;
 }
 /* overlay lukisan 2 */
-.overlay2{
+.overlay2 {
   width: 0;
   height: 0;
   display: flex;
@@ -195,14 +195,14 @@ body::before{
   text-align: center;
   padding: 100px;
 }
-.overlay2:target{
+.overlay2:target {
   width: auto;
   height: auto;
   bottom: 0;
   right: 0;
-  background: rgb(0, 0, 0,0.6);
+  background: rgb(0, 0, 0, 0.6);
 }
-.overlay2 img{
+.overlay2 img {
   max-height: 100%;
   box-shadow: 0px 0px 10px rgb(99, 60, 10);
   border-radius: 20px;
@@ -225,7 +225,7 @@ body::before{
   text-decoration: none;
 }
 /* overlay lukisan 3 */
-.overlay3{
+.overlay3 {
   width: 0;
   height: 0;
   display: flex;
@@ -238,14 +238,14 @@ body::before{
   text-align: center;
   padding: 100px;
 }
-.overlay3:target{
+.overlay3:target {
   width: auto;
   height: auto;
   bottom: 0;
   right: 0;
-  background: rgb(0, 0, 0,0.6);
+  background: rgb(0, 0, 0, 0.6);
 }
-.overlay3 img{
+.overlay3 img {
   max-height: 100%;
   box-shadow: 0px 0px 10px rgb(99, 60, 10);
   border-radius: 20px;
@@ -268,7 +268,7 @@ body::before{
   text-decoration: none;
 }
 /* overlay lukisan 4 */
-.overlay4{
+.overlay4 {
   width: 0;
   height: 0;
   display: flex;
@@ -282,14 +282,14 @@ body::before{
   padding: 100px;
   bottom: -100%;
 }
-.overlay4:target{
+.overlay4:target {
   width: auto;
   height: auto;
   bottom: 0;
   right: 0;
-  background: rgb(0, 0, 0,0.6);
+  background: rgb(0, 0, 0, 0.6);
 }
-.overlay4 img{
+.overlay4 img {
   max-height: 100%;
   box-shadow: 0px 0px 10px rgb(99, 60, 10);
   border-radius: 20px;
@@ -297,7 +297,6 @@ body::before{
   -moz-border-radius: 20px;
   -ms-border-radius: 20px;
   -o-border-radius: 20px;
-  
 }
 .overlay4:target img {
   animation: munculBawah 2s ease forwards;
@@ -314,19 +313,19 @@ body::before{
 }
 /* animasi  */
 /* gambar (pertimbangkan) */
-@keyframes zoomDanfade{
-  0%{
-      transform: scale(0);
-      opacity: 0;
-      -webkit-transform: scale(0);
-      -moz-transform: scale(0);
-      -ms-transform: scale(0);
-      -o-transform: scale(0);
-}
-  100%{
-      transform: scale(1);
-      opacity: 1;
-    }
+@keyframes zoomDanfade {
+  0% {
+    transform: scale(0);
+    opacity: 0;
+    -webkit-transform: scale(0);
+    -moz-transform: scale(0);
+    -ms-transform: scale(0);
+    -o-transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
 }
 /* judul */
 @keyframes fadeSlide {
@@ -337,7 +336,7 @@ body::before{
     -moz-transform: translateY(70px);
     -ms-transform: translateY(70px);
     -o-transform: translateY(70px);
-}
+  }
   100% {
     opacity: 1;
     transform: translateY(10px);
@@ -345,7 +344,7 @@ body::before{
     -moz-transform: translateY(10px);
     -ms-transform: translateY(10px);
     -o-transform: translateY(10px);
-}
+  }
 }
 /* container */
 @keyframes lebarin {
@@ -360,10 +359,10 @@ body::before{
 }
 @keyframes fadeout {
   0% {
-    background: rgba(0,0,0,0.9);
+    background: rgba(0, 0, 0, 0.9);
   }
   100% {
-    background: rgba(0,0,0,0,5);
+    background: rgba(0, 0, 0, 0, 5);
   }
 }
 @keyframes munculBawah {
@@ -374,7 +373,7 @@ body::before{
     -moz-transform: translateY(50px);
     -ms-transform: translateY(50px);
     -o-transform: translateY(50px);
-}
+  }
   60% {
     transform: translateY(0);
     opacity: 1;
@@ -382,7 +381,7 @@ body::before{
     -moz-transform: translateY(0);
     -ms-transform: translateY(0);
     -o-transform: translateY(0);
-}
+  }
   100% {
     transform: translateY(0) scale(1);
     opacity: 1;
@@ -390,7 +389,7 @@ body::before{
     -moz-transform: translateY(0) scale(1);
     -ms-transform: translateY(0) scale(1);
     -o-transform: translateY(0) scale(1);
-}
+  }
 }
 @keyframes munculDariBawah {
   0% {
@@ -400,21 +399,21 @@ body::before{
     -moz-transform: translateY(50px) scale(0.5);
     -ms-transform: translateY(50px) scale(0.5);
     -o-transform: translateY(50px) scale(0.5);
-}
+  }
   60% {
-    transform: translateY(-10px) scale(1.40);
+    transform: translateY(-10px) scale(1.4);
     opacity: 1;
-    -webkit-transform: translateY(-10px) scale(1.40);
-    -moz-transform: translateY(-10px) scale(1.40);
-    -ms-transform: translateY(-10px) scale(1.40);
-    -o-transform: translateY(-10px) scale(1.40);
-}
+    -webkit-transform: translateY(-10px) scale(1.4);
+    -moz-transform: translateY(-10px) scale(1.4);
+    -ms-transform: translateY(-10px) scale(1.4);
+    -o-transform: translateY(-10px) scale(1.4);
+  }
   100% {
-    transform: translateY(0) scale(1.10);
+    transform: translateY(0) scale(1.1);
     opacity: 1;
-    -webkit-transform: translateY(0) scale(1.10);
-    -moz-transform: translateY(0) scale(1.10);
-    -ms-transform: translateY(0) scale(1.10);
-    -o-transform: translateY(0) scale(1.10);
-}
+    -webkit-transform: translateY(0) scale(1.1);
+    -moz-transform: translateY(0) scale(1.1);
+    -ms-transform: translateY(0) scale(1.1);
+    -o-transform: translateY(0) scale(1.1);
+  }
 }
