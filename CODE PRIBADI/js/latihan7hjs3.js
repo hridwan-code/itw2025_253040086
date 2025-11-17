@@ -1,0 +1,1 @@
+alert ("anda telah berhasil memperbaiki masalah pada syintax js");
