@@ -1,15 +1,36 @@
 body {
-  background-color: rgb(15, 13, 95);
+  background-color: rgb(21, 90, 87);
 }
-h1 {
+.navbar {
+  width: 100%;
+  background-color: #64a825;
   color: white;
-  text-align: center;
+  padding: 1px;
+  position: fixed;
+  top: 0;
+  left: 0;
 }
-.gambar {
-  width: 200px;
-  height: 200px;
+.katalogsatu {
   display: flex;
-  justify-content: space-evenly;
-  gap: 10px;
-  left: 10px;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.katalogsatu img {
+  width: 120px;
+  height: 170px;
+  margin-top: 150px;
+  object-fit: cover;
+}
+.katalogdua {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.katalogdua img {
+  width: 120px;
+  height: 170px;
+  margin-top: 120px;
+  object-fit: cover;
 }
