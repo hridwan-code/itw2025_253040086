@@ -1,34 +1,353 @@
-body{
-    background-color: #eaeaea;
+/* bayangan */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+/* navbar */
 .navbar {
-    width: 100%;
-    background-color: #71885c;
-    padding: 1px;
-    position: fixed;
-    top: 0;
-    left: 0;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 15px 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: none;
+  backdrop-filter: none; 
+  z-index: 999;
 }
-.navbar h1{
-    margin-left: 20px;
-    font-size: 20px;
-    color: #eaeaea
+.navbarsatu{
+  list-style: none;
+  display: flex;
+  gap: 45px;
+  z-index: 9999;
 }
-.gambar img{
-    width: 100%;
-    height: 400px;
-    object-fit: cover; 
+.navbarsatu a {
+  text-decoration: none;
+  color: #ffffff; 
+  font-weight: 500;
+  transition: 0.3s;
 }
-.tombol{
-    align-items: center;
-    position: relative;
-    left: 1090px;
-    top: 7px
+.navbarsatu a:hover {
+  color: #2d8a00;  
 }
-.kotak{
-    width: 200px;
-    height: 200px
+/* logo */
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #2d8a00; 
 }
-.paragraf{
-    text-align: center;
+/* judul */
+.judul {
+  width: 100%;
+  height: 100vh;
+  background-image: url("img/buahbg.jpg"); /* gambar apel yang tadi */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.judul::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.45); /* overlay biar teks jelas */
+}
+.judul-text {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  text-align: center;
+}
+.judul-text h1 {
+  font-size: 130px;
+  font-weight: 800;
+  letter-spacing: 5px;
+  margin-bottom: 50px;
+}
+.judul-text p {
+  font-size: 20px;
+  position: relative;
+  letter-spacing: 7px;
+  top: -65px
+}
+/* judul text h2 */
+.katalog{      
+  font-size: 13opx;
+  font-weight: 800;
+  text-align: center;
+  position: relative;
+  top: 55px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.tombol {
+  padding: 12px 30px;
+  background: #cabcbc;
+  color: #000;
+  font-weight: 700;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+.tombol:hover {
+  transform: scale(1.08);
+  background: #2d8a00;
+  color: #eaeaea;
+}
+/* tulisan bagian katalog */
+.tulisan {
+  text-align: center;
+  padding: 0 250px;
+}
+.tulisan h1 {
+  padding: 20px 0px 30px;
+}
+.tulisan p {
+  font-size: 20px;
+}
+/* katalog */
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  gap: 30px;
+  padding: 100px;
+}
+/* produk pertama */
+.banana img {
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  -ms-border-radius: 100px;
+  -o-border-radius: 100px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+}
+.bananasatu {
+  width: 250px;
+  background: #f7f7f7;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  text-align: center;
+  transition: 0.6s;
+  -webkit-transition: 0.6s;
+  -moz-transition: 0.6s;
+  -ms-transition: 0.6s;
+  -o-transition: 0.6s;
+  padding: 10px;
+}
+.bananasatu:hover {
+  transform: translateY(-25px);
+  -webkit-transform: translateY(-25px);
+  -moz-transform: translateY(-25px);
+  -ms-transform: translateY(-25px);
+  -o-transform: translateY(-25px);
+}
+/* Content */
+.bananasatu-content {
+  padding: 13px;
+}
+.nama-produk {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.desk-produk {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 15px;
+}
+/* Tombol */
+.tombolbuy {
+  background: #2d8a00;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.2s;
+  position: relative;
+  top: 20px;
+  font-family :'Times New Roman', Times, serif;
+}
+.tombolbuy:hover {
+  background: #1d420a;
+}
+/* produk kedua */
+.apel img {
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  -ms-border-radius: 100px;
+  -o-border-radius: 100px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+}
+.apelsatu {
+  width: 250px;
+  background: #f7f7f7;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  text-align: center;
+  transition: 0.6s;
+  -webkit-transition: 0.6s;
+  -moz-transition: 0.6s;
+  -ms-transition: 0.6s;
+  -o-transition: 0.6s;
+  padding: 10px;
+}
+.apelsatu:hover {
+  transform: translateY(-25px);
+  -webkit-transform: translateY(-25px);
+  -moz-transform: translateY(-25px);
+  -ms-transform: translateY(-25px);
+  -o-transform: translateY(-25px);
+}
+.apelsatu-content {
+  padding: 13px;
+}
+.nama-produk {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.desk-produk {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 15px;
+}
+/* tombol */
+.tombolbuyapel {
+  background: #2d8a00;
+  color: white;
+  border: none;
+  padding: 8px 13px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.2s;
+  position: relative;
+  top: 20px;
+  font-family :'Times New Roman', Times, serif;
+}
+.tombolbuyapel:hover {
+  background: #1d420a;
+}
+/* produk tiga */
+.nanas img {
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  -ms-border-radius: 100px;
+  -o-border-radius: 100px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+}
+.nanassatu {
+  width: 250px;
+  background: #f7f7f7;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  text-align: center;
+  transition: 0.6s;
+  -webkit-transition: 0.6s;
+  -moz-transition: 0.6s;
+  -ms-transition: 0.6s;
+  -o-transition: 0.6s;
+  padding: 10px;
+}
+.nanassatu:hover {
+  transform: translateY(-25px);
+  -webkit-transform: translateY(-25px);
+  -moz-transform: translateY(-25px);
+  -ms-transform: translateY(-25px);
+  -o-transform: translateY(-25px);
+}
+.nanassatu-content {
+  padding: 13px;
+}
+/* tombol */
+.tombolbuynanas {
+  background-color: #2d8a00;
+  color:#eaeaea;
+  border: none;
+  padding: 8px 13px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.2s;
+  position: relative;
+  top: 4px;
+  font-family :'Times New Roman', Times, serif;
+}
+.tombolbuynanas:hover {
+  background: #1d420a;
+}
+/* produk empat */
+.Alpukat img {
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  -ms-border-radius: 100px;
+  -o-border-radius: 100px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+}
+.Alpukatsatu {
+  width: 250px;
+  background: #f7f7f7;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  text-align: center;
+  transition: 0.6s;
+  -webkit-transition: 0.6s;
+  -moz-transition: 0.6s;
+  -ms-transition: 0.6s;
+  -o-transition: 0.6s;
+  padding: 10px;
+}
+.Alpukatsatu:hover {
+  transform: translateY(-25px);
+  -webkit-transform: translateY(-25px);
+  -moz-transform: translateY(-25px);
+  -ms-transform: translateY(-25px);
+  -o-transform: translateY(-25px);
+}
+.Alpukatsatu-content {
+  padding: 13px;
+}
+/* tombol */
+.tombolbuyAlpukat {
+  background: #2d8a00;
+  color: white;
+  border: none;
+  padding: 8px 13px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.2s;
+  position: relative;
+  top: 35px;
+  font-family :'Times New Roman', Times, serif;
+}
+.tombolbuyAlpukat:hover {
+  background: #1d420a;
+}
+/* nama */
+.wm{
+  position: relative;
+  left: 597px;
+  top: -20px;
+  font-size: 20px;
 }
