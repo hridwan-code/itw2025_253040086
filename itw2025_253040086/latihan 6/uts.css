@@ -14,10 +14,10 @@
   justify-content: space-between;
   align-items: center;
   background: none;
-  backdrop-filter: none; 
+  backdrop-filter: none;
   z-index: 999;
 }
-.navbarsatu{
+.navbarsatu {
   list-style: none;
   display: flex;
   gap: 45px;
@@ -25,18 +25,18 @@
 }
 .navbarsatu a {
   text-decoration: none;
-  color: #ffffff; 
+  color: #ffffff;
   font-weight: 500;
   transition: 0.3s;
 }
 .navbarsatu a:hover {
-  color: #2d8a00;  
+  color: #2d8a00;
 }
 /* logo */
 .logo {
   font-size: 24px;
   font-weight: bold;
-  color: #2d8a00; 
+  color: #2d8a00;
 }
 /* judul */
 .judul {
@@ -76,16 +76,16 @@
   font-size: 20px;
   position: relative;
   letter-spacing: 7px;
-  top: -65px
+  top: -65px;
 }
 /* judul text h2 */
-.katalog{      
+.katalog {
   font-size: 13opx;
   font-weight: 800;
   text-align: center;
   position: relative;
   top: 55px;
-  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 .tombol {
   padding: 12px 30px;
@@ -130,14 +130,14 @@
   -moz-border-radius: 100px;
   -ms-border-radius: 100px;
   -o-border-radius: 100px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
 }
 .bananasatu {
   width: 250px;
   background: #f7f7f7;
   border-radius: 12px;
   overflow: hidden;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
   text-align: center;
   transition: 0.6s;
   -webkit-transition: 0.6s;
@@ -177,7 +177,7 @@
   transition: 0.2s;
   position: relative;
   top: 20px;
-  font-family :'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
 }
 .tombolbuy:hover {
   background: #1d420a;
@@ -191,14 +191,14 @@
   -moz-border-radius: 100px;
   -ms-border-radius: 100px;
   -o-border-radius: 100px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
 }
 .apelsatu {
   width: 250px;
   background: #f7f7f7;
   border-radius: 12px;
   overflow: hidden;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
   text-align: center;
   transition: 0.6s;
   -webkit-transition: 0.6s;
@@ -237,7 +237,7 @@
   transition: 0.2s;
   position: relative;
   top: 20px;
-  font-family :'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
 }
 .tombolbuyapel:hover {
   background: #1d420a;
@@ -251,14 +251,14 @@
   -moz-border-radius: 100px;
   -ms-border-radius: 100px;
   -o-border-radius: 100px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
 }
 .nanassatu {
   width: 250px;
   background: #f7f7f7;
   border-radius: 12px;
   overflow: hidden;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
   text-align: center;
   transition: 0.6s;
   -webkit-transition: 0.6s;
@@ -280,7 +280,7 @@
 /* tombol */
 .tombolbuynanas {
   background-color: #2d8a00;
-  color:#eaeaea;
+  color: #eaeaea;
   border: none;
   padding: 8px 13px;
   border-radius: 6px;
@@ -288,7 +288,7 @@
   transition: 0.2s;
   position: relative;
   top: 4px;
-  font-family :'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
 }
 .tombolbuynanas:hover {
   background: #1d420a;
@@ -302,14 +302,14 @@
   -moz-border-radius: 100px;
   -ms-border-radius: 100px;
   -o-border-radius: 100px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
 }
 .Alpukatsatu {
   width: 250px;
   background: #f7f7f7;
   border-radius: 12px;
   overflow: hidden;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
   text-align: center;
   transition: 0.6s;
   -webkit-transition: 0.6s;
@@ -339,13 +339,13 @@
   transition: 0.2s;
   position: relative;
   top: 35px;
-  font-family :'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
 }
 .tombolbuyAlpukat:hover {
   background: #1d420a;
 }
 /* nama */
-.wm{
+.wm {
   position: relative;
   left: 597px;
   top: -20px;
