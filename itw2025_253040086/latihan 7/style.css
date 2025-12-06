@@ -1,4 +1,49 @@
-.jumbotron{
-    padding-top: 2rem;
-    background-color: rgb(12, 165, 12);
+body {
+    min-height: 3000px;
+    margin: 0;
+    padding-top: 56px;
+}
+
+/* Jumbotron */
+.jumbotron {
+    padding-top: 6rem;
+    background-color: #e2edff;
+    overflow: hidden;
+}
+
+/* Semua SVG wave */
+section svg,
+#contact + svg {
+    display: block;
+    margin-top: -2px;
+}
+
+#about .container,
+#projects .container,
+#contact .container {
+    padding-top: 5rem;
+}
+
+/* Projects background */
+#projects {
+    background-color: #e2edff;
+}
+
+html,
+body {
+    background-color: #fff;
+}
+
+#about {
+    margin-top: -1px;
+}
+#projects {
+    margin-top: -1px;
+}
+#contact {
+    margin-top: -1px;
+}
+
+footer {
+    margin-top: -5px;
 }
