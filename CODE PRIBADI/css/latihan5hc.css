@@ -15,6 +15,7 @@ body{
   color: #ffffff;
   font-size: 20px;
 }
+
 /* katalog satu */
 .katalogsatu {
   display: flex;
@@ -69,6 +70,7 @@ body{
 .gambarsatu:hover .judulcover {
     opacity: 1;
 }
+
 /* katalog dua */
 .katalogdua {
   display: flex;
@@ -82,3 +84,103 @@ body{
   margin-top: 120px;
   object-fit: cover;
 }
+.gambardua{
+  width: 120px;
+  height: 170px;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+.gambardua img{
+  display: block;
+  transition: 0.3s;
+  object-fit: cover;
+  border-bottom: #64a825 2px solid ;
+  border-top:  #64a825 2px solid;
+  border-left: #64a825 2px solid;
+  border-right: #64a825 2px solid;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.gambardua:hover {
+  box-shadow: 0 0 25px #64a825,   
+              0 0 25px #64a825,
+              0 0 0px #64a825;
+  transform: scale(1.05); 
+}
+.judulcover{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background:  rgba(255, 249, 249, 0.7);;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 2px 0;
+    opacity: 0;  
+    transition: 0.3s;
+    margin-right: -3px;
+}
+.gambardua:hover .judulcover {
+    opacity: 1;
+}
+
+/* katalogtiga*/
+.katalogtiga {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.katalogtiga img {
+  width: 120px;
+  height: 170px;
+  margin-top: 120px;
+  object-fit: cover;
+}
+.gambartiga{
+  width: 120px;
+  height: 170px;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+.gambartiga img{
+  display: block;
+  transition: 0.3s;
+  object-fit: cover;
+  border-bottom: #64a825 2px solid ;
+  border-top:  #64a825 2px solid;
+  border-left: #64a825 2px solid;
+  border-right: #64a825 2px solid;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.gambartiga:hover {
+  box-shadow: 0 0 25px #64a825,   
+              0 0 25px #64a825,
+              0 0 0px #64a825;
+  transform: scale(1.05); 
+}
+.judulcover{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background:  rgba(255, 249, 249, 0.7);;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 2px 0;
+    opacity: 0;  
+    transition: 0.3s;
+    margin-right: -3px;
+}
+.gambartiga:hover .judulcover {
+    opacity: 1;
+}
+
+
