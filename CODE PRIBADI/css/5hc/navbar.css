@@ -1,0 +1,48 @@
+.navbar {
+  width: 100%;
+  background-color: #64a825;
+  padding: 1px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 99;
+}
+.navbar h1{
+  position: relative;
+  left: 15px;
+  color: #ffffff;
+  font-size: 20px;
+}
+
+/* Pencarian */
+.search-box {
+  display: flex;
+  align-items: center;
+  width: 300px;
+  background: #1e1e1e;
+  border-radius: 8px;
+  padding: 6px;
+}
+.search-box input {
+  flex: 1;
+  background: transparent;
+  border: none;
+  outline: none;
+  color: #fff;
+  padding: 8px;
+  font-size: 14px;
+}
+.search-box input::placeholder {
+  color: #aaa;
+}
+.search-box button {
+  background: #ff4757;
+  border: none;
+  border-radius: 6px;
+  padding: 8px 12px;
+  cursor: pointer;
+  font-size: 14px;
+}
+.search-box button:hover {
+  background: #ff6b81;
+}
