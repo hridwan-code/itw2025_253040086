@@ -1,5 +1,10 @@
 body{   
+  height: 100px;
   background-color: #0D1B2A;
+  background-image: url("../../gambar/js.png");
+  background-size: cover;
+  background-position: center left;
+  background-repeat: no-repeat;
 }
 /* katalog */
 .katalogsatu {
