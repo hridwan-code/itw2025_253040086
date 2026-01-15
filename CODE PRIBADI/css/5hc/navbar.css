@@ -21,7 +21,10 @@
   width: 300px;
   background: #1e1e1e;
   border-radius: 8px;
-  padding: 6px;
+  padding: 1px;
+  position: relative;
+  left: 600px;
+  top: 100px;
 }
 .search-box input {
   flex: 1;
@@ -36,7 +39,7 @@
   color: #aaa;
 }
 .search-box button {
-  background: #ff4757;
+  background: #64a825;
   border: none;
   border-radius: 6px;
   padding: 8px 12px;
@@ -44,5 +47,5 @@
   font-size: 14px;
 }
 .search-box button:hover {
-  background: #ff6b81;
+  background:  #64a825;
 }
