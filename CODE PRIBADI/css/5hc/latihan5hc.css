@@ -1,15 +1,19 @@
 body{   
-  height: 800px;
   background-color: #ffff;
-  background-image: url("../../gambar/js.png");
-  background-size: cover;
-  background-position: center left;
-  background-repeat: no-repeat;
+    margin: 0;
+}
+.hero{
+    width: 100%;
+  min-height: 100vh;
   background:
     linear-gradient(
-      rgba(0,0,0,0.35),
+      rgba(0,0,0,0.20),
       rgba(0,0,0,0.35)
     ),
+    url("../../gambar/js.png") center left / cover no-repeat;
+      background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 /* katalog */
 .katalogsatu {
