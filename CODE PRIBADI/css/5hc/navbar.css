@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
 .navbar {
   width: 100%;
   background-color: #f9f9f9;
@@ -15,6 +16,7 @@
   left: 15px;
   color: #000000;
   font-size: 20px;
+  font-family: Pixelify Sans;
 }
 
 /* Pencarian */
@@ -28,11 +30,18 @@
   border-radius: 999px;
   box-shadow: 0 10px 25px rgba(0,0,0,0.08);
   transition: box-shadow 0.25s ease, transform 0.25s ease;
+  position: absolute;    
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
+.search-box:hover,
 .search-box:focus-within {
-  box-shadow: 0 14px 30px rgba(0,0,0,0.12);
-  transform: translateY(-1px);
+  transform: translate(-50%, -50%) scale(1.04);
+  box-shadow:
+    0 10px 25px rgba(86, 83, 83, 0.9),
+    0 0 0 1px rgba(71, 64, 73, 0.9);
 }
 
 .search-box input {
@@ -61,4 +70,30 @@
 
 .search-box button:hover {
   background: #e5e7eb;
+}
+
+/* deskripsi pencarian */
+.search-desc {
+  margin-top: 120px;
+  font-size: 200px;
+  min-width: 600px;
+  color: #ffffff;  
+  text-align: center;
+  position: absolute;    
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: Pixelify Sans;
+}
+.search-desc2 {
+  margin-top: 120px;
+  font-size: 17px;
+  min-width: 600px;
+  color: #ffffff;  
+  text-align: center;
+  position: absolute;    
+  top: 43%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family:'Times New Roman', Times, serif;
 }
