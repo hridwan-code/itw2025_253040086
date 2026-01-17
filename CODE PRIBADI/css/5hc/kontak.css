@@ -1,90 +1,95 @@
-.contact {
+.contact-light {
   padding: 120px 20px;
   background: #ffffff;
 }
 
-.contact-container {
+.contact-box {
   max-width: 1000px;
-  margin: 0 auto;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 60px;
+  padding: 60px;
+  border: 1px solid #e5e7eb;
+  background: #ffffff;
 }
 
-.contact h2 {
-  text-align: center;
-  font-size: 28px;
-  margin-bottom: 12px;
+.contact-left h2 {
+  font-size: 32px;
+  margin-bottom: 8px;
   color: #111827;
 }
 
-.contact-desc {
-  text-align: center;
+.contact-left p {
+  font-size: 14px;
   color: #6b7280;
-  margin-bottom: 60px;
-  font-size: 15px;
-}
-
-.contact-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 40px;
-}
-
-/* FORM */
-.contact-form {
-  display: flex;
-  flex-direction: column;
-  gap: 14px;
+  margin-bottom: 40px;
 }
 
 .contact-form input,
 .contact-form textarea {
-  padding: 14px 16px;
-  border-radius: 12px;
-  border: 1px solid #e5e7eb;
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #d1d5db;
+  padding: 12px 0;
   font-size: 14px;
   outline: none;
+  background: transparent;
 }
 
 .contact-form input:focus,
 .contact-form textarea:focus {
-  border-color: #3b82f6;
+  border-color: #111827;
 }
 
 .contact-form button {
-  margin-top: 10px;
-  padding: 14px;
-  border-radius: 12px;
+  margin-top: 24px;
+  padding: 10px 24px;
   border: none;
   background: #111827;
-  color: white;
+  color: #ffffff;
   font-size: 14px;
   cursor: pointer;
-  transition: background 0.2s ease;
 }
 
-.contact-form button:hover {
-  background: #000000;
-}
-
-/* SOCIAL */
-.contact-social {
-  display: flex;
-  flex-direction: column;
-  gap: 16px;
-}
-
-.contact-social a {
-  display: flex;
-  align-items: center;
-  gap: 14px;
-  padding: 14px 18px;
-  border-radius: 14px;
-  border: 1px solid #e5e7eb;
-  text-decoration: none;
+.contact-right h4 {
+  font-size: 13px;
+  letter-spacing: 1px;
   color: #111827;
-  transition: background 0.25s ease, transform 0.25s ease;
+  margin-bottom: 6px;
 }
 
-.contact-social a:hover {
-  background: #f9fafb;
-  transform: translateY(-2px);
+.contact-right p {
+  font-size: 13px;
+  color: #6b7280;
+  margin-bottom: 28px;
+}
+
+.social-icons {
+  display: flex;
+  gap: 18px;
+}
+
+.social-icons a {
+  width: 16px;
+  height: 16px;
+  color: #6b7280;
+  transition: color 0.2s ease;
+}
+
+.social-icons a:hover {
+  color: #111827;
+}
+
+.social-icons svg {
+  width: 100%;
+  height: 100%;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  .contact-box {
+    grid-template-columns: 1fr;
+    padding: 40px;
+  }
 }
