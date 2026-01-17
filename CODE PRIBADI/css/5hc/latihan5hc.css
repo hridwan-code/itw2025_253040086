@@ -15,18 +15,29 @@ body{
   background-position: center 35%;
   background-repeat: no-repeat;
 }
+
 /* katalog */
 .katalogsatu {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
   gap: 50px;
-  margin-top: 1100px;
+  margin-top: 110px;
 }
 .katalogsatu img{
   width: 150px;
   height: 210px;
   object-fit: cover;
+}
+
+/* judul */
+.judul{
+  font-size: 23px;
+  margin-bottom: 20px;
+  color: #111827;
+  position: relative;
+  top: 70px;
+  text-align: center;
 }
 
 /* gambarsatu */
