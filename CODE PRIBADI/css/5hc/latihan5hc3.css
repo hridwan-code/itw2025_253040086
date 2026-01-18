@@ -1,0 +1,174 @@
+/* katalog */
+.katalogtiga {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 50px;
+    margin-top: -360px;
+    margin-bottom: 300px;
+    padding-bottom: 200px;
+}
+.katalogtiga img{
+  width: 150px;
+  height: 210px;
+  object-fit: cover;
+}
+
+/* gambarsebelas */
+.gambarsebelas{
+  width: 150px;
+  height: 210px;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+.gambarsebelas img{
+  display: block;
+  transition: 0.3s;
+  object-fit: cover;
+  border-bottom: #d7da98 2px solid ;
+  border-top:  #d7da98 2px solid ;
+  border-left: #d7da98 2px solid ;
+  border-right: #d7da98 2px solid ;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.gambarsebelas:hover {
+  box-shadow: 0 0 15px #d7da98,   
+              0 0 16px #d7da98,  
+              0 0 0px #d7da98;
+  transform: scale(1.05); 
+}
+.gambarsebelas:hover .judulcover {
+    opacity: 1;
+}
+
+
+/* gambarduabelas */
+.gambarduabelas{
+  width: 150px;
+  height: 210px;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+.gambarduabelas img{
+  display: block;
+  transition: 0.3s;
+  object-fit: cover;
+  border-bottom: #000000 2px solid ;
+  border-top:  #000000 2px solid ;
+  border-left: #000000 2px solid ;
+  border-right: #000000 2px solid ;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.gambarduabelas:hover {
+  box-shadow: 0 0 15px #000000,   
+              0 0 16px #000000,  
+              0 0 0px #000000;
+  transform: scale(1.05); 
+}
+.gambarduabelas:hover .judulcover {
+    opacity: 1;
+}
+
+
+/* gambartigabelas */
+.gambartigabelas{
+  width: 150px;
+  height: 210px;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+.gambartigabelas img{
+  display: block;
+  transition: 0.3s;
+  object-fit: cover;
+  border-bottom: #182553 2px solid ;
+  border-top:  #182553 2px solid ;
+  border-left: #182553 2px solid ;
+  border-right: #182553 2px solid ;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.gambartigabelas:hover {
+  box-shadow: 0 0 15px #182553,   
+              0 0 16px #182553,  
+              0 0 0px #182553;
+  transform: scale(1.05); 
+}
+.gambartigabelas:hover .judulcover {
+    opacity: 1;
+}
+
+
+/* gambarempatbelas */
+.gambarempatbelas{
+  width: 150px;
+  height: 210px;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+.gambarempatbelas img{
+  display: block;
+  transition: 0.3s;
+  object-fit: cover;
+  border-bottom: #cfd06a 2px solid ;
+  border-top:  #cfd06a 2px solid ;
+  border-left: #cfd06a 2px solid ;
+  border-right: #cfd06a 2px solid ;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.gambarempatbelas:hover {
+  box-shadow: 0 0 15px #cfd06a,   
+              0 0 16px #cfd06a,  
+              0 0 0px #cfd06a;
+  transform: scale(1.05); 
+}
+.gambarempatbelas:hover .judulcover {
+    opacity: 1;
+}
+
+
+/* gambarlimabelas */
+.gambarlimabelas{
+  width: 150px;
+  height: 210px;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+.gambarlimabelas img{
+  display: block;
+  transition: 0.3s;
+  object-fit: cover;
+  border-bottom: #00a4fc 2px solid ;
+  border-top:  #00a4fc 2px solid ;
+  border-left: #00a4fc 2px solid ;
+  border-right: #00a4fc 2px solid ;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.gambarlimabelas:hover {
+  box-shadow: 0 0 15px #00a4fc,   
+              0 0 16px #00a4fc,  
+              0 0 0px #00a4fc;
+  transform: scale(1.05); 
+}
+.gambarlimabelas:hover .judulcover {
+    opacity: 1;
+}
