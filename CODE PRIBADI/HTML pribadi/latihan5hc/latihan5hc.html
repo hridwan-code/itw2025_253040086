@@ -12,6 +12,32 @@
     <link rel="stylesheet" href="../../css/5hc/kontak.css">
 </head>
 <body>
+
+
+    <div class="game-modal" id="gameModal">
+  <div class="modal-content">
+    <button class="modal-close" onclick="closeModal()">×</button>
+
+    <div class="modal-grid">
+      <img id="modalImage" src="" alt="Game Cover">
+
+      <div class="modal-info">
+        <h2 id="modalTitle"></h2>
+
+        <div class="modal-meta">
+          <span id="modalYear"></span>
+          <span id="modalGenre"></span>
+        </div>
+
+        <p id="modalDesc"></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
     <nav class="navbar">
         <h1>HRIDPLAY</h1>
     </nav>
@@ -108,7 +134,15 @@
             <img src="img/megaman.jpg" alt="Megaman">
             <p class="judulcover">Mega Man</p>
         </div>
-        <div class="gambarempatbelas">
+        <div class="gambarempatbelas"
+                onclick="openModal(
+            'Pac-Man',
+            '1980',
+            'Arcade',
+            'Pac-Man adalah game arcade klasik di mana pemain mengendalikan karakter berbentuk lingkaran untuk memakan titik-titik sambil menghindari hantu.',
+            'img/pacman.jpg'
+            )">
+            
             <img src="img/pacman.jpg" alt="Pacman">
             <p class="judulcover">Pac man</p>
         </div>
@@ -158,6 +192,33 @@
         </div>
     </div>
 </section>
+
+
+<script>
+function openModal(title, year, genre, desc, image) {
+    document.getElementById('modalTitle').innerText = title;
+    document.getElementById('modalYear').innerText = year;
+    document.getElementById('modalGenre').innerText = genre;
+    document.getElementById('modalDesc').innerText = desc;
+    document.getElementById('modalImage').src = image;
+
+    document.getElementById('gameModal').classList.add('active');
+    }
+
+    function closeModal() {
+    document.getElementById('gameModal').classList.remove('active');
+    }
+
+    const modal = document.getElementById('gameModal');
+
+modal.addEventListener('click', function (e) {
+  // kalau yang diklik itu overlay (bukan isi modal)
+  if (e.target === modal) {
+    closeModal();
+  }
+});
+</script>
+
 
 
 </body>
