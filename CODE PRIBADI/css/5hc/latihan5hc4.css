@@ -1,0 +1,172 @@
+/* katalog */
+.katalogempat {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 50px;
+    margin-top: -360px;
+    margin-bottom: 300px;
+    padding-bottom: 200px;
+}
+.katalogempat img{
+  width: 150px;
+  height: 210px;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+/* 16 */
+.gambar16{
+  width: 150px;
+  height: 210px;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+.gambar16 img{
+  display: block;
+  transition: 0.3s;
+  object-fit: cover;
+  border-bottom: #c1c39c 2px solid ;
+  border-top:  #c1c39c 2px solid ;
+  border-left: #c1c39c 2px solid ;
+  border-right: #c1c39c 2px solid ;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.gambar16:hover {
+  box-shadow: 0 0 15px #c1c39c,   
+              0 0 16px #c1c39c,  
+              0 0 0px #c1c39c;
+  transform: scale(1.05); 
+}
+.gambar16:hover .judulcover {
+    opacity: 1;
+}
+
+/* 17 */
+.gambar17{
+  width: 150px;
+  height: 210px;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+.gambar17 img{
+  display: block;
+  transition: 0.3s;
+  object-fit: cover;
+  border-bottom: #0d0a31 2px solid ;
+  border-top:  #0d0a31 2px solid ;
+  border-left: #0d0a31 2px solid ;
+  border-right: #0d0a31 2px solid ;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.gambar17:hover {
+  box-shadow: 0 0 15px #0d0a31,   
+              0 0 16px #0d0a31,  
+              0 0 0px #0d0a31;
+  transform: scale(1.05); 
+}
+.gambar17:hover .judulcover {
+    opacity: 1;
+}
+
+/* 18 */
+.gambar18{
+  width: 150px;
+  height: 210px;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+.gambar18 img{
+  display: block;
+  transition: 0.3s;
+  object-fit: cover;
+  border-bottom: #0090fe 2px solid ;
+  border-top:  #0090fe 2px solid ;
+  border-left: #0090fe 2px solid ;
+  border-right: #0090fe 2px solid ;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.gambar18:hover {
+  box-shadow: 0 0 15px #0090fe,   
+              0 0 16px #0090fe,  
+              0 0 0px #0090fe;
+  transform: scale(1.05); 
+}
+.gambar18:hover .judulcover {
+    opacity: 1;
+}
+
+/* 19 */
+.gambar19{
+  width: 150px;
+  height: 210px;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+.gambar19 img{
+  display: block;
+  transition: 0.3s;
+  object-fit: cover;
+  border-bottom: #f2eca2 2px solid ;
+  border-top:  #f2eca2 2px solid ;
+  border-left: #f2eca2 2px solid ;
+  border-right: #f2eca2 2px solid ;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.gambar19:hover {
+  box-shadow: 0 0 15px #f2eca2,   
+              0 0 16px #f2eca2,  
+              0 0 0px #f2eca2;
+  transform: scale(1.05); 
+}
+.gambar19:hover .judulcover {
+    opacity: 1;
+}
+
+/* 20 */
+.gambar20{
+  width: 150px;
+  height: 210px;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+.gambar20 img{
+  display: block;
+  transition: 0.3s;
+  object-fit: cover;
+  border-bottom: #096e43 2px solid ;
+  border-top:  #096e43 2px solid ;
+  border-left: #096e43 2px solid ;
+  border-right: #096e43 2px solid ;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.gambar20:hover {
+  box-shadow: 0 0 15px #096e43,   
+              0 0 16px #096e43,  
+              0 0 0px #096e43;
+  transform: scale(1.05); 
+}
+.gambar20:hover .judulcover {
+    opacity: 1;
+}
+
