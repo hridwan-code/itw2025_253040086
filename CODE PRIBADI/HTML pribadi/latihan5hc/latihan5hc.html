@@ -15,15 +15,23 @@
 </head>
 <body>
 
-
+<!--  -->
 <div class="detail-overlay" id="detailOverlay">
   <div class="detail-modal">
-    <button class="detail-close" onclick="closeDetail()">×</button>
+    <button class="detail-close" onclick="closeDetail()">HR</button>
 
     <div class="detail-grid">
       <!-- KIRI : GAMBAR -->
       <div class="detail-cover">
-        <img id="detailImage" src="" alt="Game Cover">
+<div class="detail-cover">
+  <div class="slider">
+    <div class="slider-track" id="sliderTrack"></div>
+
+    <button class="prev">‹</button>
+    <button class="next">›</button>
+  </div>
+</div>
+
       </div>
 
       <!-- KANAN : INFO -->
@@ -90,22 +98,42 @@
         </div>
     <div class="katalogsatu">
         <div class="gambarsatu"
-            onclick="openDetail(
-        'Castlevania',
-        '1986',
-        'Action / Platformer',
-        'Castlevania adalah game action klasik dari Konami yang berlatar dunia gothic, di mana pemain berperan sebagai pemburu vampir melawan Dracula dan makhluk malam lainnya.',
-        'img/Castlevania.png',
-        'files/castlevania.zip'
-    )">
+ onclick="openDetail(
+  'Castlevania',
+  '1986',
+  'Action / Platformer',
+  'game klasik dari Konami yang mengusung tema gothic. Pemain berperan sebagai pemburu vampir dari keluarga Belmont yang harus menembus kastil Dracula dan mengalahkan berbagai makhluk malam.',
+  [
+    'img/Castlevania.png',
+    'img/pacman.jpg',
+    'img/pacman3.jpg'
+  ],
+  '#'
+)">
             <img src="img/Castlevania.png" alt="Castlevania">
             <p class="judulcover">Castlevania</p>
         </div>
-        <div class="gambardua">
+        <div class="gambardua"
+        onclick="openDetail(
+        'Doom',
+        '1993',
+        'Action / Shooter',
+        'DOOM adalah game FPS legendaris yang ngerubah dunia game selamanya. Pemain berperan sebagai prajurit yang melawan pasukan iblis dari neraka di Mars dengan tempo cepat, musik metal, dan gameplay brutal yang ikonik.',
+        'img/Doom.jpg',
+        'files/castlevania.zip'
+        )">
             <img src="img/doom.jpg" alt="doom">
             <p class="judulcover">Doom</p>
         </div>
-        <div class="gambartiga">
+        <div class="gambartiga"       
+        onclick="openDetail(
+        'Space',
+        '1978',
+        'Arcade / Shooter',
+        'salah satu game arcade paling berpengaruh sepanjang masa. Pemain menembak alien yang turun perlahan dari atas layar, menciptakan fondasi genre shooter modern.',
+        'img/space.jpg',
+        'files/castlevania.zip'
+        )">
             <img src="img/space.jpg" alt="space">
             <p class="judulcover">Space</p>
         </div>
