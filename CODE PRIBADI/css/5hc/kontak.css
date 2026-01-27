@@ -1,7 +1,7 @@
 .contact-light {
   padding: 120px 20px;
   background: #ffffff;
-  display: non;
+  margin-top: -400px;
 }
 
 .contact-box {
@@ -30,6 +30,7 @@
 .contact-form textarea {
   width: 100%;
   border: none;
+  resize: none;
   border-bottom: 1px solid #d1d5db;
   padding: 12px 0;
   font-size: 14px;
