@@ -85,3 +85,12 @@ function openDetail(title, year, genre, desc, images, downloadLink) {
   document.getElementById('detailOverlay').classList.add('active');
   document.body.classList.add('modal-open');
 }
+
+// supaya si bg utama gerak
+
+const hero = document.querySelector('.hero');
+
+window.addEventListener('scroll', () => {
+  const y = window.scrollY * 0.7; // atur angka di sini
+  hero.style.backgroundPosition = `center ${y}px`;
+});
