@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="../../css/5hc/about.css">
     <link rel="stylesheet" href="../../css/5hc/kontak.css">
     <link rel="stylesheet" href="../../css/5hc/layer.css">
+    <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
 </head>
 <body>
 
@@ -100,7 +101,7 @@
 </button>
     </div> 
     <!-- deskripsi pencarian -->
-    <p class="search-desc" id="home">
+    <p class="search-desc" id="home" >
         HRIDPLAY
     </p>
     <h2 class="search-desc2">temukan berbagai game retro yang anda sukai</h2>
@@ -109,8 +110,8 @@
     <!-- about -->
     <section class="about" id="about">
         <div class="about-container">
-            <h2>About This Project</h2>
-            <p class="about-desc">
+            <h2 data-aos="zoom-in" data-aos-duration="1000">About This Project</h2>
+            <p class="about-desc" data-aos="fade-up" data-aos-duration="1000" >
                 HRIDPLAY adalah sebuah project web game independen yang dikembangkan secara mandiri sebagai bagian dari portofolio pribadi. Project ini dibuat dengan tujuan mengeksplorasi pengembangan front-end, perancangan antarmuka (UI/UX), serta penerapan konsep visual bertema game retro yang dipadukan dengan pendekatan desain modern.
                 Melalui project ini, penulis berfokus pada bagaimana sebuah website dapat menyajikan informasi game secara rapi, mudah diakses, dan nyaman digunakan. Mulai dari struktur layout, sistem pencarian, hingga detail interaksi kecil seperti animasi hover dan transisi, seluruh elemen dirancang untuk menciptakan pengalaman pengguna yang sederhana namun tetap menarik.
                 Selain sebagai media eksplorasi desain, HRIDPLAY juga berfungsi sebagai sarana pembelajaran dalam membangun website yang terstruktur, responsif, dan konsisten secara visual. Project ini mencerminkan proses belajar berkelanjutan dalam bidang pengembangan web, khususnya pada sisi front-end, sekaligus menjadi representasi kemampuan teknis dan pendekatan desain yang diterapkan dalam satu platform terpadu.
@@ -118,10 +119,14 @@
         </div>
     </section>
 
+<div class="search-box">
+  <input type="text" id="searchInput" placeholder="Cari game...">
+</div>
+
         <div class="judul" id="games">
-            <h2>Games</h2>
+            <h2 data-aos="fade-down" data-aos-duration="1000">Games</h2>
         </div>
-    <div class="katalogsatu">
+    <div class="katalogsatu"  data-aos="fade-up" data-aos-duration="1300">
         <div class="gambarsatu"
             onclick="openDetail(
             'Castlevania',
@@ -202,7 +207,7 @@
             <p class="judulcover">Xmen</p>
         </div>
     </div>
-    <div class="katalogdua">
+    <div class="katalogdua" data-aos="fade-up" data-aos-duration="1300">
         <div class="gambarenam"            
             onclick="openDetail(
                 'Gradius',
@@ -282,7 +287,7 @@
             <p class="judulcover">Berzerk</p>
         </div>
     </div>
-    <div class="katalogtiga">
+    <div class="katalogtiga" data-aos="fade-up" data-aos-duration="1300">
         <div class="gambarsebelas"            
             onclick="openDetail(
                 'Sonic',
@@ -364,7 +369,7 @@
             <p class="judulcover">Tetris</p>
         </div>
     </div>
-    <div class="katalogempat">           
+    <div class="katalogempat" data-aos="fade-up" data-aos-duration="1300">           
         <div class="gambar16"           
             onclick="openDetail(
                 'Kid Icarus',
@@ -448,7 +453,7 @@
     </div>
 
         <!-- kontak -->
-    <section class="contact-light" id="contact">
+    <section class="contact-light" id="contact" data-aos="fade-up" data-aos-duration="1300">
     <div class="contact-box">
         <!-- LEFT : FORM -->
         <div class="contact-left">
@@ -509,6 +514,10 @@
 
 <script src="../../css/5hc/game.js"></script>
 <script src="https://unpkg.com/lucide@latest"></script>
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
 
 
 </body>

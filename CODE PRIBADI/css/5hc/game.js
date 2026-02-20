@@ -94,3 +94,24 @@ window.addEventListener('scroll', () => {
   const y = window.scrollY * 0.7; // atur angka di sini
   hero.style.backgroundPosition = `center ${y}px`;
 });
+
+// pencarian
+
+const searchInput = document.getElementById('searchInput');
+const cards = document.querySelectorAll('.gamesatu');
+
+searchInput.addEventListener('keyup', function() {
+  const keyword = searchInput.value.toLowerCase();
+
+  cards.forEach(card => {
+    const title = card.querySelector('.judulcover')
+                      .innerText
+                      .toLowerCase();
+
+    if (title.includes(keyword)) {
+      card.style.display = "block";
+    } else {
+      card.style.display = "none";
+    }
+  });
+});
